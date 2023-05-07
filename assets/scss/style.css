@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Manrope;
+  src: url(../fonts/Manrope-Regular.ttf);
+}
+.container-fluid {
+  background: #0A2640;
+  color: white;
+  height: 615px;
+  margin: 0;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container-header {
+  padding: 50px 100px;
+  width: auto;
+}
+
+.nav-bar a {
+  text-decoration-line: none;
+  font-weight: bold;
+  color: white;
+}
+.nav-bar li {
+  margin: auto 20px;
+}
+.nav-bar .login {
+  color: #0A2640;
+  background: white;
+  padding: 8px 40px;
+  border: 0;
+  border-radius: 24px;
+}
+
+.about h6, .about .our-values .paraghraph-values, .our-values .about .paraghraph-values, .about .our-team .paraghraph-story, .our-team .about .paraghraph-story, .about .our-number .paraghraph-number, .our-number .about .paraghraph-number, .about .our-story .paraghraph-story, .our-story .about .paraghraph-story {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.about {
+  margin: 0;
+}
+
+.about-txt {
+  margin: 0 auto;
+  width: 842px;
+}
+.about-txt p {
+  font-size: 64px;
+  font-family: Manrope;
+}
+
+.about-txt2 {
+  margin: 0 auto;
+  width: 745px;
+}
+.about-txt2 p {
+  font-size: 16px;
+}
+
+.container-images img {
+  width: 300px;
+}
+.container-images .middle-img {
+  width: 400px;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+h2, .our-values .heading-values, .our-team .heading-story, .our-number .heading-num-values, .our-number .heading-number, .our-story .heading-story {
+  font-size: 48px;
+  font-family: Manrope;
+}
+
+h6, .our-values .paraghraph-values, .our-team .paraghraph-story, .our-number .paraghraph-number, .our-story .paraghraph-story {
+  font-size: 20px;
+  color: #777777;
+}
+
+.our-story {
+  margin: 0 auto;
+  width: 800px;
+}
+.our-story p {
+  font-size: 20px;
+  margin: 30px 0 100px 0;
+}
+.our-story .heading-story {
+  color: black;
+}
+.our-story .paraghraph-story {
+  color: #777777;
+}
+
+.our-number {
+  background: #0A2640;
+  height: 585px;
+  padding: 100px 0;
+}
+.our-number .heading {
+  padding: 0 280px;
+  margin-bottom: 80px;
+}
+.our-number h6, .our-number .our-values .paraghraph-values, .our-values .our-number .paraghraph-values, .our-number .our-team .paraghraph-story, .our-team .our-number .paraghraph-story, .our-number .paraghraph-number, .our-number .our-story .paraghraph-story, .our-story .our-number .paraghraph-story {
+  font-size: 20px;
+  color: #f1f1f1;
+}
+.our-number .heading-number {
+  color: white;
+}
+.our-number .paraghraph-number {
+  color: #777777;
+}
+.our-number .heading-num-values {
+  color: #4FE9A4;
+  font-size: 96px;
+}
+.our-number .num-values {
+  padding: 0;
+  margin: 0;
+}
+.our-number .num-values p {
+  font-size: 24px;
+}
+
+.our-team {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 800px;
+}
+.our-team p {
+  font-size: 20px;
+  margin: 30px 0 100px 0;
+}
+.our-team .heading-story {
+  color: black;
+}
+.our-team .paraghraph-story {
+  color: #777777;
+}
+
+.team-cards img {
+  margin-bottom: 12px;
+}
+.team-cards h3 {
+  color: black;
+  font-size: 28px;
+  font-family: Manrope;
+  margin: 12px 0;
+}
+
+.our-values {
+  margin-top: 130px;
+  background: #0A2640;
+  height: 1165px;
+}
+
+.our-values {
+  margin-top: 130px;
+  padding: 100px 200px 130px 300px;
+  background: #0A2640;
+  height: 1165px;
+  width: 1300px;
+}
+.our-values .wrapper {
+  width: 800px;
+}
+.our-values p {
+  font-size: 20px;
+  margin: 30px 0 100px 0;
+}
+.our-values .heading-values {
+  color: white;
+}
+.our-values .paraghraph-values {
+  color: #f1f1f1;
+}
+.our-values .col-9 p {
+  color: #F1F1F1;
+}
+.our-values .img-values img {
+  width: 150px;
+  border: 0;
+  border-radius: 24px;
+}
+.our-values h6, .our-values .our-story .paraghraph-story, .our-story .our-values .paraghraph-story, .our-values .our-number .paraghraph-number, .our-number .our-values .paraghraph-number, .our-values .our-team .paraghraph-story, .our-team .our-values .paraghraph-story, .our-values .paraghraph-values {
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+}
+.our-values .title {
+  font-size: 48px;
+}
+
+.email-template {
+  margin: auto;
+  margin-top: 110px;
+  padding: 70px 240px;
+  height: 390px;
+  width: 1200px;
+  background: #0A2640;
+  background-image: url(/assets/images/Ellipse\ 9.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  position: end;
+  border-radius: 12px;
+}
+.email-template .submission {
+  font-size: 20px;
+}
+.email-template .submission .form-control {
+  width: 370px;
+  border-radius: 240px;
+  border: 0;
+  padding: 16px 160px 16px 30px;
+}
+.email-template .submission .btn {
+  background: #4FE9A4;
+  border: 0;
+  border-radius: 56px;
+  width: 210px;
+  padding: 16px 56px;
+  font-weight: 700;
+}
+.email-template h3 {
+  font-family: Manrope;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  margin-top: 85px;
+  padding: 100px 180px 120px 100px;
+  height: 475px;
+  color: black;
+}
+.footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer ul {
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
+}
+.footer ul a {
+  color: #777777;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer ul li {
+  margin: 30px 0;
+  padding: 0;
+}
+.footer ul .btn-hire {
+  font-size: 13px;
+  background-color: #4FE9A4;
+  padding: 4px 14px;
+  border: 0;
+  border-radius: 120px;
+  font-weight: 700;
+  color: black;
+  margin-left: 10px;
+}
+.footer p {
+  color: #777777;
+  font-size: 16px;
+  margin: 50px 0;
+}/*# sourceMappingURL=style.css.map */
